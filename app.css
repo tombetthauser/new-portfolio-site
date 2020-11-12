@@ -9,16 +9,38 @@ body {
 }
 
 #main-column {
-  padding: 25px 50px;
+  padding: 50px;
   width: 500px;
   margin: 0 auto;
   background-color: #fff;
+  /* border: 7.5px outset #ccc; */
+  /* box-shadow: 10px 10px 5px rgba(0,0,0,0.25); */
 }
 
 h1 {
   font-weight: 100;
-  text-align: center;
   letter-spacing: 1px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-weight: 100;
+}
+
+h3 {
+  font-weight: 100;
+  margin-top: -17.5px;
+  margin-left: 2.5px;
+}
+
+h4 {
+  font-weight: 100;
+  margin-top: -10px;
+  margin-left: 5px;
+}
+
+a {
+  color: cornflowerblue;
 }
 
 #profile-image {
@@ -28,6 +50,32 @@ h1 {
   display: block;
   margin: auto;
 }
+
+/* hr.zig, hr.zag {
+  border: none;
+  height: 30px;
+  margin: 0;
+}
+
+hr.zig{
+  background: linear-gradient(-135deg, white 20px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, white 20px, rgba(0, 0, 0, 0) 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 100;
+  position: relative;
+}
+
+hr.zag {
+  background: linear-gradient(-135deg, black 20px, rgba(0, 0, 0, 0) 0) 0 5px, linear-gradient(135deg, black 20px, white 0) 0 5px;
+  background-color: rgba(0, 0, 0, 0);
+  background-position: center bottom;
+  background-repeat: repeat-x;
+  background-size: 20px 40px;
+  z-index: 50;
+  margin-top: -28px;
+} */
 
 @media only screen and (max-width: 700px) {
   #main-column {
